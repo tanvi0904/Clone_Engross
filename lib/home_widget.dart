@@ -13,7 +13,8 @@ class _HomeState extends State {
   final List _children = [
     TimerScreen(Colors.grey.shade900),
     TimerScreen(Colors.deepOrange),
-    TimerScreen(Colors.green)
+    TimerScreen(Colors.green),
+    TimerScreen(Colors.pinkAccent)
   ];
   void onTabTapped(int index) {
     setState(() {
