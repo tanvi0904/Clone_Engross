@@ -33,7 +33,7 @@ class _HomeState extends State {
         unselectedIconTheme: IconThemeData(color: Colors.white, size: 25, opacity: .10),
         items: [
           BottomNavigationBarItem(
-            backgroundColor: Colors.grey,
+            backgroundColor: Colors.grey.shade900,
             icon: Icon(Icons.calendar_today),
             label: 'Calendar',
           ),
