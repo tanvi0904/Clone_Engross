@@ -11,7 +11,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State {
   int _currentIndex = 0;
   final List _children = [
-    TimerScreen(Colors.grey[900]),
+    TimerScreen(Colors.grey.shade900),
     TimerScreen(Colors.deepOrange),
     TimerScreen(Colors.green)
   ];
